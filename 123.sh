@@ -31,7 +31,6 @@ systemctl enable fail2ban
 systemctl start fail2ban
 
 # Проверим статус Fail2Ban
-systemctl status fail2ban
 
 echo "[4/7] Создание пользователя $USERNAME и настройка SSH-ключа..."
 useradd -m -s /bin/bash $USERNAME
